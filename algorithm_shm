@@ -1,0 +1,41 @@
+
+
+
+*********************Algorithm of code***********************
+		for process p1
+1..Start
+	
+2.declare global variable as char array
+
+3. declare local variable as shmd
+
+4.open shared memory using shm_open
+
+5. memory map for shared memory using mmap
+
+6. take loop
+
+7. in loop enter string 
+
+8. End
+
+	for process p2
+	
+1. start
+
+2. declare global varibale as char array
+
+3. declare local variable as shmd
+
+4.open shared memory using shm_open
+
+5. memory map for shared memory using mmap
+
+6. take loop
+
+7. print string which is shared 
+
+8. Display count of string 
+
+9. End
+	
